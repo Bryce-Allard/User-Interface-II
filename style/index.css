@@ -1,1 +1,26 @@
-/* Add CSS styling here */
+header{
+    background-color: aquamarine;
+}
+.container{
+    border:1px solid black;
+    height: 30%;
+    width:90%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex;
+}
+.bigbox{
+    border: 1px solid black;
+    display:flex;
+    height: 15rem;
+    width:15rem;
+    flex-wrap:wrap;
+    padding:1rem;
+}
+.intro{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+
+}
