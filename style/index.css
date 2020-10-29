@@ -50,6 +50,7 @@ nav{
     padding:3%;
     justify-content: space-between;
     align-items: center;
+    background-color: tan;
 }
 
 .navbar{
@@ -72,18 +73,67 @@ nav{
 
 .top{
     display:flex;
-    height:60vh;
-    background-image:url("https://picsum.photos/600/300");
+    height:50vh;
+    background-image:url("https://picsum.photos/300/300");
     background-size:cover;
     background-repeat: no-repeat;
     align-items: center;
-    width:75%;
+    width:85%;
     align-items: center;
     justify-content: center;
     margin:0 auto;
 }
 
 .titles{
-    font-size: 1.2rem;
-    background-color: cyan;
+    font-size: 2.5rem;
+    align-items: center;
+}
+
+.myproj{
+    display: flex;
+    padding:4%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.lower{
+    border:1px solid black;
+    /* display:flex; */
+    padding:5%;
+    
+    
+}
+
+.row1{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 2%;
+}
+
+.row2{
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+    /* border:1px solid blue; */
+    padding:2%;
+}
+
+footer{
+    /* height:40%;
+    width:100%; */
+    display:flex;
+    padding:3%;
+    justify-content: center;
+    background-color: tan;
+}
+
+footer button{
+    width:15%;
+    padding:1% 2%;
+    justify-content: center;
+    display: flex;
 }
