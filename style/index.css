@@ -42,7 +42,6 @@ table {
 	border-spacing: 0;
 }
 *{
-    
 }
 
 nav{
@@ -63,12 +62,21 @@ nav{
     font-size: 1rem;
     color: black;
     background-color: rgb(250, 249, 248);
+    transition: 2s;
+}
+
+button:hover{
+    background-color: coral;
 }
 
 .navname h2{
     font-size: 1.5rem;
     text-transform: uppercase;
 
+}
+
+body{
+    background-color: silver;
 }
 
 .top{
@@ -96,10 +104,10 @@ nav{
     align-items: center;
     margin: 0 auto;
     margin-top: 5%;
+    transition:2s;
 }
 
 .lower{
-    border:1px solid black;
     /* display:flex; */
     padding:5%;
     
@@ -129,6 +137,7 @@ footer{
     padding:3%;
     justify-content: center;
     background-color: tan;
+    
 }
 
 footer button{
@@ -136,4 +145,5 @@ footer button{
     padding:1% 2%;
     justify-content: center;
     display: flex;
+    transition:2s;
 }
