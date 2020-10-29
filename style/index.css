@@ -147,3 +147,8 @@ footer button{
     display: flex;
     transition:2s;
 }
+
+a{
+    text-decoration: none;
+    color:black
+}
